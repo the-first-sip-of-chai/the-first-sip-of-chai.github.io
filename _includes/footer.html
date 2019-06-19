@@ -1,5 +1,6 @@
 <!-- Footer -->
 <footer id="footer">
+  <center><h2>The First Sip of Chai</h2></center>
   <ul class="icons">
     {% for socloc in site.social %}
     {% if socloc[1] %}
@@ -14,6 +15,8 @@
     {% endfor %}
   </ul>
   <ul class="copyright">
+    <li>First Sip of Tea</li>
+    <li>Son of a Gun Seasoning</li>
     <li>&copy; {% assign thisyear = site.time | date: "%Y" %}
     {% if site.first_published %}
       {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
@@ -21,7 +24,7 @@
     {% endif %}
     {{ thisyear }}
     {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %}</li>
-    <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
-    <li>Built with: <a href="http://jekyllrb.com" target="_blank">Jekyll</a></li>
+    <!-- <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+    <li>Built with: <a href="http://jekyllrb.com" target="_blank">Jekyll</a></li> -->
   </ul>
 </footer>
