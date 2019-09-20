@@ -1845,8 +1845,11 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	}
 
-.box-ing {
-  background: no-repeat;
-  background-color: #f7f7f7;
-  background-size: contain;
+.boxing {
+	 width: 55%; 
+	 font-size: 150%;
+	 background-color: #1e1d2f;
+	 color: white;
+	 float: right;
+	 padding: 20px;
 }
